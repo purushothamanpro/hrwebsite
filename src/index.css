@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Merriweather', serif !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+@media (min-width: 992px)
+{
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* border: 1.5px solid #55b81f; */
+    border-radius: 2rem;
+    
+}.navbar-nav:hover .nav-link:hover{
+  color: #ffffff !important;
+  background-color: #55b81f;
+}
+}
+.highlight{
+  color: #ffffff !important;
+  background-color: #55b81f;
+}
